@@ -198,6 +198,10 @@ global:
       secretName: null
       secretKey: null
 
+  federation:
+    enabled: false
+    createFederationSecret: false
+
 # Server, when enabled, configures a server cluster to run. This should
 # be disabled if you plan on connecting to a Consul cluster external to
 # the Kube cluster.
